@@ -74,9 +74,9 @@ inline float CosineDistance(const cv::Mat &v1,const cv::Mat &v2){
 
 int main()
 {
-    cv::Mat A = cv::imread("/Users/yujinke/Desktop/align_id/aligned/20171231115821836_face.jpg");
+    cv::Mat A = cv::imread("./aligned/20171231115821836_face.jpg");
 
-    cv::Mat B = cv::imread("/Users/yujinke/Desktop/align_id/aligned/20171231115821836_idcard.jpg");
+    cv::Mat B = cv::imread("./aligned/20171231115821836_idcard.jpg");
     FR_MFN_Deploy deploy("./models");
     cv::Mat v2 = deploy.forward(B);
     cv::Mat v1 = deploy.forward(A);
