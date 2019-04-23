@@ -1,4 +1,4 @@
-# tvm_mobilefacenet
+# TVM_mobilefacenet
 
 demo about how to deploy tvm model via TVM .
 
